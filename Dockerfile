@@ -1,4 +1,4 @@
-FROM java:8
+FROM balenalib/balenalib/armv7hf-alpine-openjdk
 COPY FauxServer.java /tmp
 WORKDIR /tmp
 EXPOSE 80
