@@ -21,9 +21,9 @@
 3. sudo apt upgrade -y
 
 Install Docker  
-4. sudo apt install -y docker.io
-5. sudo systemctl enable docker --now
-6. sudo usermod -aG docker $USER
+4. sudo apt install -y docker.io  
+5. sudo systemctl enable docker --now  
+6. sudo usermod -aG docker $USER  
 
 Set up containers
 
