@@ -14,3 +14,17 @@
 - Eagle https://www.thingiverse.com/thing:60504
 - Zig Zag https://www.thingiverse.com/thing:2482349
 - Animals https://www.thingiverse.com/thing:4884497
+
+### Raspberry Pi Setup
+1. Install Kali Linux Image on card
+2. sudo apt update -y
+3. sudo apt upgrade -y
+
+Install Docker  
+4. sudo apt install -y docker.io
+5. sudo systemctl enable docker --now
+6. sudo usermod -aG docker $USER
+
+Set up containers
+
+
