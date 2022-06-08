@@ -8,11 +8,12 @@ public class FauxServer
     private Socket          socket   = null;
     private ServerSocket    server   = null;
     private DataInputStream in       =  null;
+  
  
     // constructor with port
     public FauxServer(int port)
     {
-        // starts server and waits for a connection
+          // starts server and waits for a connection
         try
         {
             server = new ServerSocket(port);
@@ -59,6 +60,9 @@ public class FauxServer
  
     public static void main(String args[])
     {
-        FauxServer server = new FauxServer(80);
+        int portNumber = Integer.parseInt(args[0]);
+        
+        FauxServer server = new FauxServer(portNumber);
+        
     }
 }
