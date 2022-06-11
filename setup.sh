@@ -15,9 +15,9 @@ sudo usermod -aG docker $USER
 
 
 # Images to Pull
-#docker pull delfer/alpine-ftpserver
+#docker pull delfer/alpine-ftp-server
 #docker pull httpd
 
 #Java
-sudo apt install -y default-jdk
+#sudo apt install -y default-jdk
 

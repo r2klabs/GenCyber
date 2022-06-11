@@ -19,7 +19,7 @@ public class FauxServer
             server = new ServerSocket(port);
             System.out.println("Server started");
  
-            System.out.println("Waiting for a client ...");
+            System.out.println("Waiting for a client on port: "+port);
  
             socket = server.accept();
             System.out.println("Client accepted");
